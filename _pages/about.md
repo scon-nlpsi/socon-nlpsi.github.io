@@ -39,3 +39,9 @@ NLPSI seeks to bridge these two disciplines with a primary focus on NLP research
 ### Invited Speaker
 
 TBD
+
+### Questions
+If you have any questions, please do not hesitate to contact us at <a href="nlpsi-workshop-organizers.nlproc@uni-bamberg.de">nlpsi-workshop-organizers.nlproc@uni-bamberg.de</a>.
+
+### Organizers
+{% include organizers.liquid center=true %}

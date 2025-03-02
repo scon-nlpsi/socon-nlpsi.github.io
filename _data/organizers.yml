@@ -1,0 +1,44 @@
+- name: "Aswathy Velutharambath"
+  affiliation: "University of Bamberg"
+  image: "/assets/img/aswathy.jpg"
+  socials:
+    website: "https://www.ims.uni-stuttgart.de/en/institute/team/Velutharambath/"
+    scholar: "https://scholar.google.com/citations?user=lUJhuKQAAAAJ"
+
+- name: "Sofie Labat"
+  affiliation: "Ghent University"
+  image: "/assets/img/sofie.jpg"
+  socials:
+    website: "https://lt3.ugent.be/people/sofie-labat/"
+    scholar: "https://scholar.google.com/citations?user=Ig5RyykAAAAJ"
+
+- name: "Neele Falk"
+  affiliation: "University of Stuttgart"
+  image: "/assets/img/neele.jpeg"
+  socials:
+    website: "https://www.ims.uni-stuttgart.de/en/institute/team/Falk/"
+
+
+- name: "Flor Miriam Plaza-del-Arco"
+  affiliation: "Bocconi University"
+  image: "/assets/img/flor.png"
+  socials:
+    website: "https://fmplaza.github.io/"
+    scholar: "https://scholar.google.es/citations?user=4GqDwGEAAAAJ&hl=es"
+
+- name: "Roman Klinger"
+  affiliation: "University of Bamberg"
+  image: "/assets/img/roman.jpg"
+  socials:
+    website: "https://www.romanklinger.de/about/"
+    scholar: "https://scholar.google.com/citations?user=1flvefwAAAAJ"
+    bluesky: "https://bsky.app/profile/romanklinger.de"
+    linkedin: "https://www.linkedin.com/in/romanklinger/"
+
+- name: "Véronique Hoste"
+  affiliation: "Ghent University"
+  image: "/assets/img/veronique.jpg"
+  socials:
+    website: "https://lt3.ugent.be/people/veronique-hoste/"
+    scholar: "https://scholar.google.com/citations?user=WxOsW3IAAAAJ"
+    linkedin: "https://www.linkedin.com/in/veronique-hoste-5b5b93/"
