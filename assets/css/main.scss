@@ -23,3 +23,11 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.organizer-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 3px solid #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

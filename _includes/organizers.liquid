@@ -1,65 +1,33 @@
-<div class="container-fluid">
-  <div class="row">
+<div class="container">
+  <div class="row justify-content-center">
     {% for organizer in site.data.organizers %}
-      <div class="card-item col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-          <div class="row g-0 h-100">
-            
-            <div class="card-img col-md-6 p-0">
-              <img class="img-fluid" src="{{ organizer.image }}" alt="{{ organizer.name }}">
-            </div>
-            
-            <div class="col-md-6 d-flex flex-column p-0">
-              <div class="card-body flex-grow-1">
-                <h5 class="card-title">{{ organizer.name }}</h5>
-                <h6 class="card-text">{{ organizer.affiliation }}</h6>
-
-                <div class="row ml-1 mr-1 p-0">
-                  {% if organizer.socials.bluesky %}
-                  <div class="icon" data-toggle="tooltip" title="Bluesky">
-                    <a href="{{ organizer.socials.bluesky }}" target="_blank" rel="noopener noreferrer">
-                      <i class="fab fa-bluesky"></i>
-                    </a>
-                  </div>
-                  {% endif %}
-
-                  {% if organizer.socials.twitter %}
-                  <div class="icon" data-toggle="tooltip" title="Twitter">
-                    <a href="{{ organizer.socials.twitter }}" target="_blank" rel="noopener noreferrer">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  {% endif %}
-
-                  {% if organizer.socials.scholar %}
-                  <div class="icon" data-toggle="tooltip" title="Google Scholar">
-                    <a href="{{ organizer.socials.scholar }}" target="_blank" rel="noopener noreferrer">
-                      <i class="ai ai-google-scholar"></i>
-                    </a>
-                  </div>
-                  {% endif %}
-
-                  {% if organizer.socials.linkedin %}
-                  <div class="icon" data-toggle="tooltip" title="LinkedIn">
-                    <a href="{{ organizer.socials.linkedin }}" target="_blank" rel="noopener noreferrer">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </div>
-                  {% endif %}
-
-                  {% if organizer.socials.website %}
-                  <div class="icon" data-toggle="tooltip" title="Website">
-                    <a href="{{ organizer.socials.website }}" target="_blank" rel="noopener noreferrer">
-                      <i class="fas fa-address-card"></i>
-                    </a>
-                  </div>
-                  {% endif %}
-                </div>
-
-              </div>
-            </div>
-
-          </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-5">
+        <img src="{{ organizer.image }}" 
+             alt="{{ organizer.name }}" 
+             class="rounded-circle organizer-img mb-3">
+        
+        <h5>{{ organizer.name }}</h5>
+        <p>{{ organizer.affiliation }}</p>
+        
+        <div>
+          {% if organizer.socials %}
+            {% for platform, url in organizer.socials %}
+              <a href="{{ url }}" target="_blank" rel="noopener noreferrer" class="mx-1">
+                {% case platform %}
+                  {% when 'twitter' %}
+                    <i class="fab fa-twitter"></i>
+                  {% when 'bluesky' %}
+                    <i class="fab fa-bluesky"></i>
+                  {% when 'scholar' %}
+                    <i class="ai ai-google-scholar"></i>
+                  {% when 'linkedin' %}
+                    <i class="fab fa-linkedin"></i>
+                  {% when 'website' %}
+                    <i class="fas fa-globe"></i>
+                {% endcase %}
+              </a>
+            {% endfor %}
+          {% endif %}
         </div>
       </div>
     {% endfor %}
