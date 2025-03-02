@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<h2 style="text-align:center; font-size:32px; font-weight:600; margin-bottom:20px;">
+<h2 style="text-align:center; font-size:32px; font-weight:600; margin-bottom:20px; color:#888;">
   First Workshop on<br>
   <span style="color:#4A90E2;">Integrating NLP and Psychology  to Study Social Interactions</span><br>
   <span style="font-size:26px; color:#888;">NLPSI @ ICWSM 2025</span>
