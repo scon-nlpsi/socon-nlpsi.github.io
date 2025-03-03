@@ -4,6 +4,8 @@
   socials:
     website: "https://www.ims.uni-stuttgart.de/en/institute/team/Velutharambath/"
     scholar: "https://scholar.google.com/citations?user=lUJhuKQAAAAJ"
+    linkedin: "https://www.linkedin.com/in/aswathy-velutharambath/"
+    bluesky: "https://bsky.app/profile/aswathyve.bsky.social"
 
 - name: "Sofie Labat"
   affiliation: "Ghent University"
@@ -11,6 +13,7 @@
   socials:
     website: "https://lt3.ugent.be/people/sofie-labat/"
     scholar: "https://scholar.google.com/citations?user=Ig5RyykAAAAJ"
+    linkedin: "https://www.linkedin.com/in/sofie-labat-27777a151/"
 
 - name: "Neele Falk"
   affiliation: "University of Stuttgart"
@@ -25,6 +28,8 @@
   socials:
     website: "https://fmplaza.github.io/"
     scholar: "https://scholar.google.es/citations?user=4GqDwGEAAAAJ&hl=es"
+    twitter: "https://x.com/florplaza22"
+    linkedin: "https://www.linkedin.com/in/flor-miriam-plaza-del-arco-phd-395770b9/"
 
 - name: "Roman Klinger"
   affiliation: "University of Bamberg"
