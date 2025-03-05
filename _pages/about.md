@@ -54,3 +54,6 @@ If you have any questions, please do not hesitate to contact us at <a href="nlps
 
 ### Organizers
 {% include organizers.liquid center=true %}
+
+
+{% include sponsors.liquid %}

@@ -1,0 +1,32 @@
+<div class="sponsors-container">
+  {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-logo">
+      <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
+    </a>
+  {% endfor %}
+</div>
+
+<style>
+  .sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 40px;
+  }
+
+  .sponsor-logo img {
+    max-height: 60px;
+    width: auto;
+    display: block;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .sponsor-logo img:hover {
+    opacity: 1;
+  }
+</style>

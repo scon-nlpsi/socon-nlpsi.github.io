@@ -1,0 +1,27 @@
+- name: University of Bamberg
+  url: https://www.uni-bamberg.de
+  logo: /assets/sponsors/uni-bamberg.jpg
+
+- name: University of Stuttgart
+  url: https://www.uni-stuttgart.de
+  logo: /assets/img/sponsors/uni-stuttgart.jpg
+
+- name: University of Ghent
+  url: https://www.ugent.be/en
+  logo: /assets/img/sponsors/ugent.webp
+
+- name: Bocconi University
+  url: https://www.unibocconi.eu
+  logo: /assets/img/sponsors/bocconi.webp
+
+- name: Language and Translation Technology Team Ghent
+  url: https://lt3.ugent.be
+  logo: /assets/img/sponsors/lt3.png
+
+- name: BamNLP
+  url: https://www.uni-bamberg.de/en/nlproc/
+  logo: /assets/img/sponsors/bamnlp.jpg
+
+- name: Institut für Maschinelle Sprachverarbeitung
+  url: https://www.ims.uni-stuttgart.de
+  logo: /assets/logos/ims_stuttgart.png
