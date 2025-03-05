@@ -12,24 +12,24 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     padding: 20px 0;
     border-top: 1px solid #e5e7eb;
     margin-top: 40px;
   }
 
   .sponsor-logo {
-    flex-basis: calc(25% - 30px); /* adjust percentage for logos per line */
+    flex-basis: calc(33.33% - 40px); /* 3 logos per row */
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .sponsor-logo img {
-    max-height: 80px; /* increase this to make logos larger */
+    max-height: 120px; /* increased for larger logos */
     width: auto;
     object-fit: contain;
-    opacity: 0.8;
+    opacity: 0.85;
     transition: opacity 0.3s ease;
   }
 
@@ -37,10 +37,25 @@
     opacity: 1;
   }
 
-  /* Responsive adjustments for smaller screens */
+  /* Adjustments for medium screens */
   @media (max-width: 768px) {
     .sponsor-logo {
-      flex-basis: calc(50% - 20px);
+      flex-basis: calc(50% - 20px); /* 2 logos per row on medium screens */
+    }
+
+    .sponsor-logo img {
+      max-height: 100px;
+    }
+  }
+
+  /* Adjustments for small screens */
+  @media (max-width: 480px) {
+    .sponsor-logo {
+      flex-basis: 100%; /* full width on small screens */
+    }
+
+    .sponsor-logo img {
+      max-height: 90px;
     }
   }
 </style>

@@ -38,7 +38,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
   
-    {% include sponsors.liquid %} 
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -76,5 +75,8 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    {% include sponsors.liquid %} 
+
   </article>
 </div>
