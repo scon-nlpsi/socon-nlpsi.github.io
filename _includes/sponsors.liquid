@@ -7,27 +7,40 @@
 </div>
 
 <style>
-.sponsors-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; /* space between logos */
-  padding: 20px 0;
-  border-top: 1px solid #e5e7eb;
-  margin-top: 40px;
-}
+  .sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 40px;
+  }
 
-.sponsor-logo img {
-  max-height: 60px;  /* Adjust this value to your liking */
-  width: auto;
-  display: block;
-  object-fit: contain;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
+  .sponsor-logo {
+    flex-basis: calc(25% - 30px); /* adjust percentage for logos per line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.sponsor-logo img:hover {
-  opacity: 1;
-}
+  .sponsor-logo img {
+    max-height: 80px; /* increase this to make logos larger */
+    width: auto;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .sponsor-logo img:hover {
+    opacity: 1;
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .sponsor-logo {
+      flex-basis: calc(50% - 20px);
+    }
+  }
 </style>
