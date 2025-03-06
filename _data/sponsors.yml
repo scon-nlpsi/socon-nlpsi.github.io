@@ -14,6 +14,10 @@
   url: https://lt3.ugent.be
   logo: /assets/img/sponsors/lt3.png
 
+- name: Leiden University
+  url: https://www.universiteitleiden.nl/en
+  logo: /assets/img/sponsors/liacsul.png
+
 - name: University of Stuttgart
   url: https://www.uni-stuttgart.de
   logo: /assets/img/sponsors/unistuttgart_logo.png
@@ -22,6 +26,3 @@
   url: https://www.ims.uni-stuttgart.de
   logo: /assets/img/sponsors/ims_logo.jpg
 
-- name: Leiden University
-  url: https://www.universiteitleiden.nl/en
-  logo: /assets/img/sponsors/liacsul.png
