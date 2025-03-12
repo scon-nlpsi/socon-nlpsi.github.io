@@ -38,10 +38,10 @@ We invite the following types of submissions:
 
 ## Submission Guidenlines
 
-All papers must follow the AAAI two-column, camera-ready style for US Letter (8.5" x 11") paper, using Type 1 or TrueType fonts. (Available templates: [AAAI 2025 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-authorkit25-anonymoussubmission/qxnjxxbvrjqr) or [AAAI 2025 Author Kit.zip](https://aaai.org/authorkit25/) [Word and LaTeX]). The review process will be double-blind, so please anonymize your papers by removing identifying information such as author names, affiliations, and funding details.
+All papers must follow the **AAAI two-column**, camera-ready style for US Letter (8.5" x 11") paper, using Type 1 or TrueType fonts. (Available templates: [AAAI 2025 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-authorkit25-anonymoussubmission/qxnjxxbvrjqr) or [AAAI 2025 Author Kit.zip](https://aaai.org/authorkit25/) [Word and LaTeX]). The review process will be **double-blind**, so please anonymize your papers by removing identifying information such as author names, affiliations, and funding details.
 
 
-All submissions have to be made through the following [Openreview link](https://openreview.net/group?id=ICWSM.org/2025/Workshop/NLPSI)
+All submissions have to be made through the following **[Openreview link](https://openreview.net/group?id=ICWSM.org/2025/Workshop/NLPSI)**
 
 Authors should be aware of OpenReview’s moderation policy for newly created profiles:
 
