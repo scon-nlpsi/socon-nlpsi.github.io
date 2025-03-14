@@ -52,6 +52,10 @@ Authors should be aware of OpenReview’s moderation policy for newly created pr
 
 Final versions of accepted papers will be given one additional page of content to address reviewers’ comments.
 
+### Workshop Proceedings
+
+The workshop proceedings will be published at https://workshop-proceedings.icwsm.org/. Each paper will receive a unique DOI.
+
 ## Organizers
 
 - **Aswathy Velutharambath**, University of Bamberg
