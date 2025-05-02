@@ -1,0 +1,61 @@
+<div class="sponsors-container">
+  {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-logo">
+      <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
+    </a>
+  {% endfor %}
+</div>
+
+<style>
+  .sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 40px;
+  }
+
+  .sponsor-logo {
+    flex-basis: calc(33.33% - 40px); /* 3 logos per row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsor-logo img {
+    max-height: 120px; /* increased for larger logos */
+    width: auto;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+  }
+
+  .sponsor-logo img:hover {
+    opacity: 1;
+  }
+
+  /* Adjustments for medium screens */
+  @media (max-width: 768px) {
+    .sponsor-logo {
+      flex-basis: calc(50% - 20px); /* 2 logos per row on medium screens */
+    }
+
+    .sponsor-logo img {
+      max-height: 100px;
+    }
+  }
+
+  /* Adjustments for small screens */
+  @media (max-width: 480px) {
+    .sponsor-logo {
+      flex-basis: 100%; /* full width on small screens */
+    }
+
+    .sponsor-logo img {
+      max-height: 90px;
+    }
+  }
+</style>
