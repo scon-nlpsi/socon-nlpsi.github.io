@@ -1,13 +1,11 @@
 ---
 layout: page
 permalink: /schedule/
-title: Schedule
+title: 🗓️ Event Schedule
 description: 
 nav: true
 nav_order: 3
 ---
-
-# 🗓️ Event Schedule
 
 <style>
 .schedule-table {
@@ -18,19 +16,43 @@ nav_order: 3
 }
 
 .schedule-table th, .schedule-table td {
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   padding: 0.75em;
   text-align: left;
 }
 
 .schedule-table th {
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f0f0f0;
+  color: #111;
   font-weight: bold;
 }
 
 .schedule-table tr:nth-child(even) {
   background-color: #fafafa;
+}
+
+/* 🌙 Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .schedule-table {
+    border-color: #444;
+  }
+
+  .schedule-table th {
+    background-color: #222;
+    color: #eee;
+  }
+
+  .schedule-table td {
+    color: #ddd;
+  }
+
+  .schedule-table tr:nth-child(even) {
+    background-color: #1a1a1a;
+  }
+
+  .schedule-table td, .schedule-table th {
+    border-color: #444;
+  }
 }
 </style>
 
