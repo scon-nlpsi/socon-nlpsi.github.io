@@ -62,13 +62,6 @@ nav_order: 3
 }
 </style>
 
-### Location
-
-**Address:** A.C. Meyers Vænge 15, Building A,  **Room 1.0.001**  
-
-[View on Google Maps](https://maps.app.goo.gl/N54XfNXDsrrq5TMB9)
-
----
 
 <table class="schedule-table">
   <thead>
@@ -108,3 +101,12 @@ nav_order: 3
     </tr>
   </tbody>
 </table>
+
+
+## Location
+
+**Address:** A.C. Meyers Vænge 15, Building A, **Room 1.0.001**, 2450 København, Denmark  
+
+[View on Google Maps](https://maps.app.goo.gl/N54XfNXDsrrq5TMB9)
+
+---
