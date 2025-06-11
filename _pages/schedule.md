@@ -79,8 +79,8 @@ nav_order: 3
   </thead>
   <tbody>
     <tr>
-      <td>7:30 onwards</td>
-      <td>Conference registration possible</td>
+      <td>7:30</td>
+      <td>Conference registration begins</td>
     </tr>
     <tr>
       <td>8:00 - 8:15</td>
