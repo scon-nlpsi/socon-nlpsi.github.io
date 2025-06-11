@@ -62,6 +62,14 @@ nav_order: 3
 }
 </style>
 
+### Location
+
+**Address:** A.C. Meyers Vænge 15, Building A,  **Room 1.0.001**  
+
+[View on Google Maps](https://maps.app.goo.gl/N54XfNXDsrrq5TMB9)
+
+---
+
 <table class="schedule-table">
   <thead>
     <tr>
@@ -71,27 +79,31 @@ nav_order: 3
   </thead>
   <tbody>
     <tr>
-      <td>9:00 - 9:15</td>
+      <td>7:30 onwards</td>
+      <td>Conference registration possible</td>
+    </tr>
+    <tr>
+      <td>8:00 - 8:15</td>
       <td>Opening Remarks</td>
     </tr>
     <tr>
-      <td>9:15 - 10:15</td>
+      <td>8:15 - 9:15</td>
       <td>Keynote Talk</td>
     </tr>
     <tr>
-      <td>10:15 - 10:30</td>
+      <td>9:15 - 9:30</td>
       <td>Coffee Break</td>
     </tr>
     <tr>
-      <td>10:30 - 11:20</td>
+      <td>9:30 - 10:20</td>
       <td>Networking Session</td>
     </tr>
     <tr>
-      <td>11:30 - 12:50</td>
+      <td>10:30 - 11:50</td>
       <td>Interactive Presentations (Poster/Talks)</td>
     </tr>
     <tr>
-      <td>12:50 - 13:00</td>
+      <td>11:50 - 12:00</td>
       <td>Closing Remarks</td>
     </tr>
   </tbody>
