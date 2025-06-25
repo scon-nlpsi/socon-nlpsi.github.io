@@ -18,7 +18,7 @@ nav_order: 4
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_35.pdf" target="_blank">Scaling Implicature via Structured Interaction in Multi‑Agent LLMs</a> – Harvey Bonmu Ku</li>
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_36.pdf" target="_blank">Basic Psychological Need Fulfillment in AI‑Mediated Communication</a> – Eileen Wemmer, Carsten Röcker</li>
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_37.pdf" target="_blank">Assessing Perspective‑Taking in Texts</a> – Paul Compensis</li>
-  <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_38.pdf" target="_blank">A Hybrid Theory and Data‑driven Approach to Persuasion Detection with Large Language Models</a> – Gia Bao Hoang et al.</li>
+  <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_38.pdf" target="_blank">A Hybrid Theory and Data‑driven Approach to Persuasion Detection with Large Language Models</a> – Gia Bao Hoang, Keith J. Ransom, Rachel G. Stephens, Carolyn Semmler, Nicolas Fay, Lewis Mitchell</li>
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_39.pdf" target="_blank">The Utility of LLM Text Generation in Longitudinal Psychological Datasets</a> – Jari Zegers, Bennett Kleinberg</li>
 </ul>
 
