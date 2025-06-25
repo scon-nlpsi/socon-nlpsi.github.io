@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 
-<h23>Accepted Papers – NLPSI 2025</h3>
+<h3>Accepted Papers – NLPSI 2025</h3>
 <ul>
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_30.pdf" target="_blank">Simulating Persuasive Dialogues on Meat Reduction with Generative Agents</a> – Georg Ahnert, Elena Wurth, Markus Strohmaier, Jutta Mata</li>
   <li><a href="https://workshop-proceedings.icwsm.org/pdf/2025_31.pdf" target="_blank">Automatically Coding Implicit Motives in Picture Story Exercises: The Automated Motive Coder</a> – Max Brede, Felix Schönbrodt, Birk Hagemeyer, Veronika Lerche</li>
