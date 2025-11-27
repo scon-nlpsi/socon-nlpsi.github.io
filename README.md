@@ -1,6 +1,4 @@
-Here is the corrected version of your text with spelling and grammar improvements:
 
----
 
 # NLPSI Workshop: Integrating NLP and Psychology to Study Social Interactions  
 
