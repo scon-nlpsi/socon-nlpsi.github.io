@@ -207,7 +207,10 @@ exclude:
   - _pages/publications.md
   - _pages/blog.md
   - _pages/repositories.md
-  
+  - _pages/news.md
+  - _data/sponsors.yml
+  - _data/sponsored_by.yml
+  - assets/img/sponsors/
 keep_files:
   - CNAME
   - .nojekyll
