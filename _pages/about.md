@@ -58,5 +58,5 @@ Driven by the shared interest in human communicative behaviors and interactive d
 * __Workshop day__: May 12th, 2026 
 
 ### Questions
-If you have any questions, please do not hesitate to contact us at  [social-context-workshop@googlegroups.com](social-context-workshop@googlegroups.com) or <a href="nlpsi-workshop-organizers.nlproc@uni-bamberg.de">nlpsi-workshop-organizers.nlproc@uni-bamberg.de</a>.
+If you have any questions, please do not hesitate to contact us at <a href="socon-nlpsi-workshop-organizers.nlproc@uni-bamberg.de ">socon-nlpsi-workshop-organizers.nlproc@uni-bamberg.de </a>.
 
